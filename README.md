@@ -20,22 +20,22 @@ Este proyecto permite monitorear sensores de sonido y temperatura, así como rea
 ## Instalación
 
 1. Clonar el repositorio:
-	```
+	```sh
 	git clone <URL_DEL_REPOSITORIO>
 	cd <NOMBRE_DEL_REPOSITORIO>
 	```
 2. Configurar entorno virtual (opcional):
-	```
+	```sh
 	python3 -m venv venv
 	source venv/bin/activate
 	```
 3. Instalar dependencias:
-	```
+	```sh
 	pip install -r requirements.txt
 	```
 ### Configurar variables de entorno:
 Crear un archivo .env con las siguientes variables:
-```
+```sh
 EMAIL=tu_correo@example.com
 SOUND_ENDPOINT=https://tu-endpoint-sound.com
 TEMP_ENDPOINT=https://tu-endpoint-temp.com
@@ -49,17 +49,19 @@ STREAM_NAME=nombre_stream
 ## Uso
 
 - Ejecutar el monitoreo
-
-		Para iniciar los sensores y el streaming:
-		```
+	Para iniciar los sensores y el streaming:
+		```sh
 		python3 main.py
 		```
 - Interrupción manual
-		Presiona Ctrl + C para detener la ejecución del programa.
+	Presiona Ctrl + C para detener la ejecución del programa.
 
-##Seguridad
-Manejo de credenciales: Las credenciales AWS y los endpoints están almacenados en variables de entorno y no deben subirse al repositorio.
-Exclusión de archivos sensibles: Asegúrate de que .env está listado en el archivo .gitignore.
+## Seguridad
+Manejo de credenciales: 
+- Las credenciales AWS y los endpoints están almacenados en variables de entorno y no deben subirse al repositorio.
+
+Exclusión de archivos sensibles:
+- Asegúrate de que .env está listado en el archivo .gitignore.
 
 ## Dependencias
 
