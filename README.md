@@ -70,4 +70,3 @@ Exclusión de archivos sensibles:
 - w1thermsensor
 - python-dotenv
 - busio
-- requests
