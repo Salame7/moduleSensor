@@ -41,7 +41,7 @@ SOUND_ENDPOINT=https://tu-endpoint-sound.com
 TEMP_ENDPOINT=https://tu-endpoint-temp.com
 AWS_ACCESS_KEY_ID=TU_AWS_KEY
 AWS_SECRET_ACCESS_KEY=TU_AWS_SECRET
-AWS_REGION=us-east-1
+AWS_REGION=REGION_SERVIDOR_AWS
 STREAM_NAME=nombre_stream
 ```
 
